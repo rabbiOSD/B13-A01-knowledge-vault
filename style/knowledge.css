@@ -74,6 +74,12 @@ nav .menu-list a {
 .btn:hover{
   background-color: bisque;
 }
+.Access-btn:hover{
+  background-color: bisque;
+}
+.second-btn:hover{
+  background-color: bisque;
+}
 .play-btn {
   border: none;
   padding: 12px 16px;
