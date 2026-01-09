@@ -11,8 +11,8 @@
 
 header{
   background-color: #FFFFFF;
-  padding: 16px 120px 16px 120px;
 }
+
 nav {
   width: 1600px;
   max-width: 1600px;
@@ -21,8 +21,25 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid;
 }
+.knowledge {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+nav .menu-list{
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+nav .menu-list a {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.849);
+  text-decoration: none;
+}
+
 .btn {
   background-color: #469165;
   border: none;
@@ -31,25 +48,125 @@ nav {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
+}
+.second-btn {
+  background-color: #469165;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.Access-btn {
+  background-color: #FFFFFF;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #30B868;
+  cursor: pointer;
 }
 
-.menu-list{
-  display: flex;
-  list-style-type: none;
-  gap: 56px;
-  margin-left:346px ;
+.btn:hover{
+  background-color: bisque;
 }
-.menu-btn {
-  list-style-type: none;
-}
-nav .menu {
-  display: flex;
-  list-style-type: none;
-  gap: 346px;
-  align-items: center;
-}
-nav .menu a {
+.play-btn {
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.849);
-  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  gap:10
+}
+/* banner size style*/
+/* banner size style
+.banner {
+  width: 100%;
+  background: url(../assets/hero-bg.png);
+  align-items: center;
+} */
+
+.banner-area{
+  background: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+}
+.banner-content{
+  text-align: center;
+}
+.banner-content h1 {
+  margin: 70px 120px 134px 120px;
+  font-size: 72px;
+  font-weight: 700px;
+  line-height: 84px;
+  text-align: center;
+}
+.banner .banner-content p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+h1 .color-green {
+  color:#30B868;
+}
+h1 .color-white {
+  color:#FFFFFF;
+}
+
+#notes {
+  padding-top: 130px ;
+} 
+#notes .notes-container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-heading {
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section-heading h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.section-heading p {
+  font-size: 16px;
+  margin-bottom: 44px;
+  line-height: 20px;
+  color: #627382;
+}
+
+#notes .notes-container .notes-box {
+  display: flex;
+  gap: 24px;
+}
+.notes-box .notes-card {
+  padding: 24px;
+  max-width: 322px;
+  box-shadow: 0 0 8px 0 #0000000F;
+}
+.notes-card img {
+  max-width: 66px;
+  margin-bottom: 16px;
+}
+.notes-card h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 16px;
+}
+.notes-card p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #627382;
 }
