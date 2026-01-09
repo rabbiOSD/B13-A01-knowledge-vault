@@ -83,13 +83,6 @@ nav .menu-list a {
   cursor: pointer;
   gap:10
 }
-/* banner size style*/
-/* banner size style
-.banner {
-  width: 100%;
-  background: url(../assets/hero-bg.png);
-  align-items: center;
-} */
 
 .banner-area{
   background: url(../assets/hero-bg.png);
@@ -169,4 +162,66 @@ h1 .color-white {
   line-height: 20px;
   text-align: center;
   color: #627382;
+}
+
+#brain {
+  padding-top: 120px;
+}
+#brain .brain-section {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  gap: 60px;
+}
+.image-section {
+  width: 600px;
+  height: 600px;
+}
+
+.brain-content {
+  margin: 102px;
+
+}
+
+.brain-heading h5 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #30B868;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.brain-heading h2 {
+  font-size: 45px;
+  line-height: 58px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.brain-heading p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.content-list p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+#Early-section {
+  padding-top: 120px ;
+} 
+
+#Early-section .Early-heading {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 60px;
+  background-color: #F7F6F2;
 }
