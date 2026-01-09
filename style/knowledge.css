@@ -84,27 +84,33 @@ nav .menu-list a {
   gap:10
 }
 
-.banner-area{
+#banner-area {
   background: url(../assets/hero-bg.png);
+  width: 2042px;
+  height: 563px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   margin: 0 auto;
 }
-.banner-content{
+#banner-area .banner-content{
+  width: 1360px;
+  height: 384px;
+  margin: 0 auto;
+  padding: 85px 0;
   text-align: center;
 }
-.banner-content h1 {
-  margin: 70px 120px 134px 120px;
+#banner-area .banner-content h1 {
   font-size: 72px;
-  font-weight: 700px;
   line-height: 84px;
   text-align: center;
+  margin-bottom: 16px;
 }
-.banner .banner-content p {
+.banner-content p {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 48px;
 }
 h1 .color-green {
   color:#30B868;
@@ -148,9 +154,10 @@ h1 .color-white {
   max-width: 322px;
   box-shadow: 0 0 8px 0 #0000000F;
 }
-.notes-card img {
-  max-width: 66px;
-  margin-bottom: 16px;
+.notes-card a {
+  width: 322px;
+  height: 300px;
+  color: 1px solid red;
 }
 .notes-card h3 {
   font-size: 24px;
@@ -166,6 +173,7 @@ h1 .color-white {
 
 #brain {
   padding-top: 120px;
+  margin: 120px;
 }
 #brain .brain-section {
   width: 85%;
@@ -213,15 +221,51 @@ h1 .color-white {
   margin-bottom: 16px;
 }
 
-#Early-section {
-  padding-top: 120px ;
-} 
+#early {
+  width: 1360px;
+  height: 384px;
+  margin: 0 auto;
+  background-color: #F7F6F2;
+  padding: 80px 0;
+  text-align: center;
+}
 
-#Early-section .Early-heading {
+.early-heading h2 {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  gap: 16px;
+}
+.early-heading p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #627382;
+  margin-bottom: 24px;
+}
+.early-btn p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #627382;
+  margin-bottom: 16px;
+}
+
+
+footer {
+  margin-top: 120px;
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+  text-align: center;
+  color: white;
+}
+footer .footer-container {
   width: 85%;
   max-width: 1360px;
   margin: 0 auto;
-  text-align: center;
-  gap: 60px;
-  background-color: #F7F6F2;
+  display: flex;
+  justify-content: space-between;
+}
+.icons-list h4 {
+  color: #FFFFFF;
 }
